@@ -7,9 +7,9 @@ import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
 import tkinter.font as tkfont
 
-# ---------------------------
+# -----------------------------
 # Service Map (extend freely)
-# ---------------------------
+# -----------------------------
 COMMON_PORTS = {
     21: 'FTP', 22: 'SSH', 23: 'Telnet', 25: 'SMTP', 53: 'DNS',
     80: 'HTTP', 110: 'POP3', 143: 'IMAP', 443: 'HTTPS',
